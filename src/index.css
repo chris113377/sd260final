@@ -1,13 +1,82 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.app-header {
+  text-align: center;
+  background-image: linear-gradient(180deg, #0d5494 50%, #ffe32c 100%);
+  height: 150px;
+  padding-top: 50px;
+  color: #ffe32c;
+}
+
+.header-btn {
+  position: relative;
+  left: 300px;
+  bottom: 35px;
+  font-size: large;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #ffe32c;
+  color: #0d5494;
+  border: none;
+}
+
+.app-body {
+  border: 3px solid #ffe32c;
+}
+
+.app-form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.app-input,
+.crypto,
+.fiat {
+  font-size: 2em;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.app-input {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.crypto {
+  margin-right: 20px;
+}
+
+.fiat {
+}
+
+.app-result {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 5em;
+  margin-bottom: 200px;
+}
+
+.app-btn {
+  display: block;
+  margin: 0 auto;
+  font-size: 2em;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #0d5494;
+  color: #fff;
+}
+
+.coin {
+  margin-top: 10px;
+  margin-bottom: 100px;
 }
